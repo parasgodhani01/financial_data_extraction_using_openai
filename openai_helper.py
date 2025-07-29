@@ -1,4 +1,4 @@
-import openai
+import openai # type: ignore
 import json
 import pandas as pd
 import os

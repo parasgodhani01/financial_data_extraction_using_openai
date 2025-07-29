@@ -20,8 +20,8 @@ with col2:
     st.dataframe(
         financial_data_df,
         column_config={
-            "Measure": st.column_config.Column(width=150),
-            "Value": st.column_config.Column(width=150)
+            "Measure": st.column_config.Column(width="medium"),
+            "Value": st.column_config.Column(width="medium")
         },
         hide_index=True
     )
