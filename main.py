@@ -16,7 +16,7 @@ with col1:
         financial_data_df = openai_helper.extract_financial_data(news_article)
 
 with col2:
-    st.markdown("<br/>" * 5, unsafe_allow_html=True)  # Creates 5 lines of vertical space
+    st.markdown("<br/>" * 5, unsafe_allow_html=True) 
     st.dataframe(
         financial_data_df,
         column_config={
